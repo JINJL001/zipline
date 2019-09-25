@@ -375,8 +375,8 @@ class DataQueryCutoffForSessionTestCase(zf.ZiplineTestCase):
             NL_EQUITIES: datetime.time(8, 15),
             NO_EQUITIES: datetime.time(8, 15),
             NZ_EQUITIES: datetime.time(9, 15),
-            PE_EQUITIES: datetime.time(8, 14),  # SHOULD BE (8, 15)
-            PL_EQUITIES: datetime.time(7, 44),  # SHOULD BE (7, 45)
+            PE_EQUITIES: datetime.time(8, 15),
+            PL_EQUITIES: datetime.time(8, 15),
             PT_EQUITIES: datetime.time(7, 15),
             SE_EQUITIES: datetime.time(8, 15),
             SG_EQUITIES: datetime.time(8, 15),
